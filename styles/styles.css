@@ -1,6 +1,29 @@
 @import url('normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
+/* Base */
+
+
+/* Holy Grail */
+
+.container {
+    display: grid;
+
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+
+    grid-template-rows: 130px 1fr auto;
+    grid-gap: 10px;
+
+    height: calc(100vh - 20px);
+}
+
+/* Header */
+
+/* Main */
+
 /* Footer */
 
 .attribution {
