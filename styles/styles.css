@@ -3,6 +3,19 @@
 
 /* Base */
 
+html {
+    box-sizing: border-box;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 300px;
+    margin: 0 auto;
+    font-family: Karla, Arial, Helvetica, sans-serif;
+}
 
 /* Holy Grail */
 
@@ -14,13 +27,30 @@
         "main"
         "footer";
 
-    grid-template-rows: 130px 1fr auto;
+    grid-template-rows: 54px 1fr auto;
     grid-gap: 10px;
 
     height: calc(100vh - 20px);
 }
 
 /* Header */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo {
+    width: 90px;
+}
+
+.dropdown {
+    width: 25px;
+    height: 25x;
+}
 
 /* Main */
 
