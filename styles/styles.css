@@ -16,6 +16,7 @@ body {
     max-width: 270px;
     margin: 0 auto;
     font-family: Karla, Arial, Helvetica, sans-serif;
+    color: hsl(256, 26%, 20%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-rows: 54px 1fr auto;
     grid-gap: 0;
 
-    height: calc(100vh - 20px);
+    height: calc(100% - 20px);
 }
 
 /* Header */
@@ -99,6 +100,38 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
     color: inherit;
     text-decoration: none;
+}
+
+.values {
+    padding: 70px 0;
+}
+
+.values__header {
+    text-align: center;
+    font-size: 2.1em;
+    margin-bottom: 60px;
+}
+
+.values__objective__logo {
+    display: block;
+    margin: 30px auto;
+    width: 23%;
+}
+
+.values__obbjective__title {
+    margin: 15px auto;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.values__obbjective__description {
+    max-width: 240px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 0.75em;
+    color: hsl(273, 4%, 51%);
 }
 
 /* Footer */
