@@ -222,3 +222,18 @@ main {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* Backgrounds */
+
+.insurance__intro {
+    background-image: url('../images/bg-pattern-intro-left-mobile.svg'),
+                      url('../images/bg-pattern-intro-right-mobile.svg');
+    background-size: 40%, 28%;
+    background-repeat: no-repeat;
+    background-position-x: left, right;
+    background-position-y: top, bottom ;
+    
+    padding-bottom: 155px;
+    margin-bottom: -155px;
+    margin-top: -5px;
+}
