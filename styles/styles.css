@@ -19,7 +19,7 @@ body {
     color: hsl(256, 26%, 20%);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
     font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
@@ -60,6 +60,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Main */
+
+main {
+    padding-bottom: 90px;
+}
 
 .insurance {
     background-color: hsl(256, 26%, 20%);
@@ -166,6 +170,49 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Footer */
+
+.footer {
+    padding: 60px 0 0;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.footer__logo {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.footer__social-media {
+    display: flex;
+    justify-content: space-between;
+    max-width: 120px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.footer__social-media__logo {
+    width: 20px;
+}
+
+.quick-links {
+    padding: 8px 0 30px;
+}
+
+.quick-links__box__title {
+    text-align: center;
+    text-transform: uppercase;
+    color: hsl(273, 4%, 51%);
+}
+
+.quick-links__list {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.85em;
+    line-height: 1.8em;
+}
 
 .attribution {
     font-size: 11px;
