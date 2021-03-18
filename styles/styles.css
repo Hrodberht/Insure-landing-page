@@ -237,3 +237,26 @@ main {
     margin-bottom: -155px;
     margin-top: -5px;
 }
+
+.values__more-info {
+    background-image: url('../images/bg-pattern-how-we-work-mobile.svg');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.footer {
+    background-image: url('../images/bg-pattern-footer-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 285px;
+}
+
+.divider--narow {
+    max-width: 45%;
+    border-top: 1px solid hsl(273, 4%, 51%);  
+}
+
+.divider--wide {
+    max-width: 85%;
+    border-top: 1px solid hsl(0, 0%, 81%);
+}
