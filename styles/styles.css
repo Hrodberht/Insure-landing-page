@@ -202,6 +202,11 @@ main {
 
 .footer__social-media__logo {
     width: 20px;
+    height: 20px;
+}
+
+.social-media__icons:hover {
+    fill: hsl(270, 9%, 17%);
 }
 
 .quick-links {
