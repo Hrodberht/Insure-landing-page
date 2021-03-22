@@ -92,7 +92,7 @@ main {
     font-size: 0.75em;
 }
 
-.insurance__plans {
+.insurance-plans__link {
     display: block;
     width: 110px;
     text-align: center;
@@ -104,6 +104,11 @@ main {
     letter-spacing: 1px;
     color: inherit;
     text-decoration: none;
+}
+
+.insurance-plans__link:hover {
+    background-color: white;
+    color: hsl(256, 26%, 20%);
 }
 
 .values {
@@ -167,6 +172,11 @@ main {
     letter-spacing: 1px;
     color: inherit;
     text-decoration: none;
+}
+
+.values__more-info__link:hover {
+    background-color: white;
+    color: hsl(256, 26%, 20%);
 }
 
 /* Footer */
