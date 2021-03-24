@@ -271,12 +271,66 @@ main {
     background-size: 285px;
 }
 
+.divider-desktop--narow {
+    display: none;
+}
+
 .divider--narow {
     max-width: 45%;
-    border-top: 1px solid hsl(273, 4%, 51%);  
+    border-top: 1px solid rgba(131, 125, 135, 0.5);  
 }
 
 .divider--wide {
     max-width: 85%;
-    border-top: 1px solid hsl(0, 0%, 81%);
+    border-top: 1px solid rgba(207, 207, 207, 0.5);
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 720px) {
+    body {
+        max-width: 1050px;
+    }
+
+    .insurance {
+        height: 450px;
+        padding-left: 120px;
+    }
+
+    .divider-desktop--narow {
+        display: block;
+        margin-bottom: 75px;
+        position: relative;
+        top: 80px;
+        right: 210px;
+        max-width: 12%;
+        border-top: 1px solid rgba(255, 255, 255, 0.5); 
+    }
+
+    .insurance__header {
+        max-width: 360px;
+        margin: 0;
+        text-align: left;
+        font-size: 3.2em;
+    }
+    
+    .insurance__description {
+        max-width: 440px;
+        margin: 0;
+        text-align: left;
+        font-size: 0.8em;
+        line-height: 1.6em;
+    }
+
+    .insurance-plans__link {
+        margin: 0;
+    }
+
+    .insurance__hero-img {
+        float: right;
+        position: relative;
+        width: 400px;
+        top: 80px;
+        right: 80px;
+    }
 }
