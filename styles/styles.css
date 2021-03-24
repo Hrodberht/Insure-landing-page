@@ -271,6 +271,8 @@ main {
     background-size: 285px;
 }
 
+/* Dividers */
+
 .divider-desktop--narow {
     display: none;
 }
@@ -289,22 +291,21 @@ main {
 
 @media only screen and (min-width: 720px) {
     body {
-        max-width: 1050px;
+        max-width: 1150px;
     }
+
+    /* Header */
+
+    .header {
+        padding: 0 140px;
+    }
+    
+    /* Main */
 
     .insurance {
         height: 450px;
-        padding-left: 120px;
-    }
-
-    .divider-desktop--narow {
-        display: block;
-        margin-bottom: 75px;
-        position: relative;
-        top: 80px;
-        right: 210px;
-        max-width: 12%;
-        border-top: 1px solid rgba(255, 255, 255, 0.5); 
+        padding-left: 140px;
+        margin-bottom: 165px;
     }
 
     .insurance__header {
@@ -331,6 +332,21 @@ main {
         position: relative;
         width: 400px;
         top: 80px;
-        right: 80px;
+        right: 140px;
+    }
+
+    /* Footer */
+
+    
+    /* Dividers */
+
+    .divider-desktop--narow {
+        display: block;
+        margin-bottom: 75px;
+        position: relative;
+        top: 80px;
+        right: 250px;
+        max-width: 11%;
+        border-top: 1px solid rgba(255, 255, 255, 0.5); 
     }
 }
