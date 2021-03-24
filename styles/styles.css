@@ -229,6 +229,11 @@ main {
     line-height: 1.8em;
 }
 
+.quick-links__link {
+    text-decoration: none;
+    color: hsl(270, 9%, 17%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
