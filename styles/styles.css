@@ -337,6 +337,7 @@ main {
     }
 
     .values {
+        padding-top: 30px;
         padding-left: 140px;
     }
 
@@ -374,23 +375,30 @@ main {
 
     .values__more-info {
         max-width: 880px;
-        height: 210px;
+        height: 180px;
         display: flex;
         justify-content: space-between;
     }
 
     .values__more-info__header {
-        font-size: 3.2em;
+        font-size: 2.6em;
         text-align: left;
         max-width: 450px;
+        margin: auto 0;
+        padding-top: 0;
+        padding-left: 80px;
     }
 
     .values__more-info__link {
         height: 31.8px;
-        margin: auto;
+        margin: auto 80px;
     }
 
     /* Footer */
+
+    .footer {
+        padding-top: 50px;
+    }
 
      .footer__top {
         display: flex;
@@ -400,13 +408,14 @@ main {
     }
 
     .footer__top__logo {
-        height: 40px;
+        height: 30px;
         flex-basis: 10%;
     }
 
     .footer__social-media {
         margin: 0;
         width: 130px;
+        padding-bottom: 0;
     }
 
     .quick-links {
@@ -449,6 +458,32 @@ main {
     }
 
     .divider--wide {
-        max-width: 90%;
+        max-width: 77%;
+    }
+
+    /* Backgrounds */
+
+    .insurance__intro {
+        background-image: url('../images/bg-pattern-intro-left-desktop.svg'),
+                          url('../images/bg-pattern-intro-right-desktop.svg');
+        background-size: 13%, 26%;
+        background-position-x: left, right;
+        background-position-y: bottom, top;
+        
+        padding-left: 140px;
+        margin-left: -140px;
+
+        padding-bottom: 335px;
+        margin-bottom: -335px;
+    }
+    
+    .values__more-info {
+        background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
+        background-size: 39%;
+    }
+    
+    .footer {
+        background-image: url('../images/bg-pattern-footer-desktop.svg');
+        background-size: 35%;
     }
 }
