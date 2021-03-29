@@ -238,6 +238,10 @@ main {
     color: hsl(270, 9%, 17%);
 }
 
+.quick-links__link:hover {
+    text-decoration: underline;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
