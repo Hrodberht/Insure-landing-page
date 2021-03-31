@@ -12,14 +12,17 @@
 </head>
 <body>
 <div class="container">
-<header class="header header--show-nav">
+<header class="header" id="header">
   <a class="logo__link" href="index.html">
     <img class="logo" src="images/logo.svg" alt="Site logo">
   </a>
 
-  <img class="dropdown" src="images/icon-hamburger.svg" alt="Dropdown button">
+  <button id="btn">
+    <img class="dropdown" id="hamburger" src="images/icon-hamburger.svg" alt="Dropdown button">
+    <img class="dropdown dropdown--hidden" id="cross" src="images/icon-close.svg" alt="Dropdown button">
+  </button>
 
-  <nav class="nav">
+  <nav class="nav" id="nav">
     <ul class="nav__list">
       <a class="nav__list__link" href="#">
         <li class="nav__list__item">How we work</li>
@@ -237,5 +240,6 @@
   </div>
 </footer>
 </div>
+<script src="scripts/script.js"></script>
 </body>
 </html>
