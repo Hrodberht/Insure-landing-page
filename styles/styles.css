@@ -16,7 +16,8 @@ body {
     max-width: 270px;
     margin: 0 auto;
     font-family: Karla, Arial, Helvetica, sans-serif;
-    color: hsl(256, 26%, 20%);
+    /* color: hsl(256, 26%, 20%); */
+    color: var(--base-color);
 }
 
 h1, h2, h3, h4 {
@@ -47,7 +48,7 @@ button {
     grid-template-rows: auto 1fr auto;
     grid-gap: 0;
 
-    height: calc(100% - 20px);
+    height: calc(100%);
 }
 
 /* Header */
@@ -84,6 +85,11 @@ button {
     background-color: hsl(255, 15%, 16%);
     margin-bottom: 15px;
 }
+
+.nav--show-nav {
+    display: block;
+}
+
 
 .nav__list {
     height: 350px;
