@@ -1,5 +1,7 @@
 # Frontend Mentor - Insure landing page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6f356e23-aec1-4448-97e7-07aae15b5b5c/deploy-status)](https://app.netlify.com/sites/insure-landing-page-mentor/deploys)
+
 ![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
